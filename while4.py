@@ -8,9 +8,9 @@ a = 0
 while i:
     num = int(input("Zadaj číslo: "))
     if num != 0:
-        a+=num
-        counter+=1
+        a += num
+        counter += 1
     else:
         i = False
 
-print("Aritmetický priemer zadaných čísel je:",a/counter)
+print("Aritmetický priemer zadaných čísel je:", a/counter)
